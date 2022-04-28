@@ -48,6 +48,7 @@ function FeedbackForm() {
       }
       if (feedbackEdit.edit === true) {
         updateFeedback(feedbackEdit.item.id, newFeedback)
+        feedbackEdit.edit = false
         setText("")
         setBtnDisabled(true)
         setMessage("")
