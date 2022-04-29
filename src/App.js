@@ -8,7 +8,6 @@ import "./App.css"
 import AboutIconLink from "./components/AboutIconLink"
 import { FeedbackProvider } from "./context/FeedbackContext"
 // import FeedbackData from "./data/FeedbackData"
-
 function App() {
   return (
     <FeedbackProvider>

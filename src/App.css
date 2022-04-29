@@ -2,6 +2,30 @@
   text-align: center;
 }
 
+.spinner {
+  animation: spin infinite 5s linear;
+
+  /*You can increase or decrease the timer (5s) to 
+     increase or decrease the speed of the spinner*/
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.full-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
